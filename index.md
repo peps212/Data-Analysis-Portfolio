@@ -1,3 +1,4 @@
+# Giuseppe's Portofolio
 # 1st project: E-commerce company project - Linear regression model
 
 ## What is the project about?
