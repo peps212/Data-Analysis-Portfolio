@@ -22,7 +22,11 @@ We can already see a clear correletion between particular data
 
 ### 2) Trained and tested the linear regression model 
  
-The user's data I used to train this model is: Average session lenght, Time spent on the app, Time spent on the website and lenght of the membership.
+The user's data I used to train this model is:
+- Average session lenght 
+- Time spent on the app 
+- Time spent on the website 
+- Lenght of the membership.
 
 I then tested the model to evaluate its efficiency:
 
@@ -42,7 +46,7 @@ Holding all other features fixed, a 1 unit increase in Time on App is associated
 
 Holding all other features fixed, a 1 unit increase in Time on Website is associated with an increase of 0.19 total dollars spent.
 
-Holding all other features fixed, a 1 unit increase in Length of Membership is associated with an increase of 61.27 total dollars spent.
+Holding all other features fixed, a 1 unit increase in Length of Membership is associated with an increase of *61.27 total dollars* spent.
 
 ### Conclusion 
 
@@ -73,11 +77,11 @@ We can already tell that the most active users are in an age range that goes fro
 
 At this point i trained my model using the following data from the dataframe: 
 
-Daily Time Spent on Site: consumer time on site in minutes
-Age: cutomer age in years
-Area Income: Avg. Income of geographical area of consumer
-Daily Internet Usage: Avg. minutes a day consumer is on the internet
-Male: Where 0 is equale to false and 1 to true
+- Daily Time Spent on Site: consumer time on site in minutes
+- Age: cutomer age in years
+- Area Income: Avg. Income of geographical area of consumer
+- Daily Internet Usage: Avg. minutes a day consumer is on the internet
+- Male: Where 0 is equale to false and 1 to true
 
 ### 3) Tested the predictions of the model
 
@@ -91,3 +95,7 @@ And with the following confusion matrix we can see the actual guesses of the mod
  
 
 
+
+# 3rd Project: Brief Analysis of Bank Stock prices
+
+This project contains different interactive charts, therefore must be opened with jupiter notebook (click on the name of the project).
