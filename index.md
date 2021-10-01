@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Giuseppe's Portfolio
 
-You can use the [editor on GitHub](https://github.com/peps212/My-Portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 1st project: E-commerce company project - Linear regression model
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### What is the project about?
 
-### Markdown
+The data set is about an Ecommerce company based in New York City that sells clothing. Customers come in to the store, have sessions meetings with a personal stylist, then they can go home and order either on a mobile app or website for the clothes they want.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The company is trying to decide whether to focus their efforts on their mobile app experience or their website.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+![image](https://user-images.githubusercontent.com/91633570/135598044-59fc3c2e-188f-46e8-bce5-2903928e9877.png)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/peps212/My-Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
