@@ -1,5 +1,7 @@
 # Giuseppe's Portofolio
-# 1st Project: E-commerce Company - Linear regression model
+The code for the following projects can be found by clicking on the name of the project.
+
+# [1st Project: E-commerce Company - Linear regression model](https://github.com/peps212/My-Portfolio/blob/main/Ecommerce%20Company%20Project.ipynb)
 
 ## What is the project about?
 
@@ -15,7 +17,7 @@ After importing the data from a csv file into a Pandas dataframe, I used the Sea
 
 ![image](https://user-images.githubusercontent.com/91633570/135598044-59fc3c2e-188f-46e8-bce5-2903928e9877.png)
 
-We can already see a clear correletion between particular data
+We can already see a clear correletion between particular sets of data
 
 
 ![image](https://user-images.githubusercontent.com/91633570/135600146-6cb26e27-9bc6-4ce1-be61-4c26e1e71a5e.png) ![image](https://user-images.githubusercontent.com/91633570/135600294-07566d86-5d62-4310-a974-63d972442050.png)
@@ -40,23 +42,21 @@ In this graph we can find the true values that we tried to predict in the x axis
 
 #### How can we interpret these coefficients?
 
-Holding all other features fixed, a 1 unit increase in Avg. Session Length is associated with an increase of 25.98 total dollars spent.
-
-Holding all other features fixed, a 1 unit increase in Time on App is associated with an increase of 38.59 total dollars spent.
-
-Holding all other features fixed, a 1 unit increase in Time on Website is associated with an increase of 0.19 total dollars spent.
-
-Holding all other features fixed, a 1 unit increase in Length of Membership is associated with an increase of *61.27 total dollars* spent.
+- Holding all other features fixed, a 1 unit increase in Avg. Session Length is associated with an increase of 25.7 total dollars spent.
+- Holding all other features fixed, a 1 unit increase in Time on App is associated with an increase of 38.22 total dollars spent.
+- Holding all other features fixed, a 1 unit increase in Time on Website is associated with an increase of 0.72 total dollars spent.
+- Holding all other features fixed, a 1 unit increase in Length of Membership is associated with an increase of 61.57 total dollars spent.
 
 ### Conclusion 
 
-Going back to what the company asked, should they focus more on their mobile app or on their website? There are two ways to think about this: Develop the Website to catch up to the performance of the mobile app, or develop the app more since that is what is working better. In addition, it would be smart to consider the importance of the lenght of the membership, the company should focus their efforts on making sure to create good relationships with their customers, in order to increase loyality and therefore sales.
+Going back to what the company asked, should they focus more on their mobile app or on their website? There are two ways to think about this: develop the Website to catch up to the performance of the mobile app, or develop the app more since that is what is working better. 
+In addition, it would be smart to consider the importance of the lenght of the membership, the company should focus their efforts on making sure to create good relationships with their customers, in order to increase loyality and therefore sales.
 
 
 
 
 
-# 2nd Project: Advertisment Prediction - Logistic Regression Model
+# [2nd Project: Advertisment Prediction - Logistic Regression Model](https://github.com/peps212/My-Portfolio/blob/main/Advertisement%20Prediction%20Project.ipynb)
 
 ## What is the project about?
 
@@ -77,11 +77,11 @@ We can already tell that the most active users are in an age range that goes fro
 
 At this point i trained my model using the following data from the dataframe: 
 
-- Daily Time Spent on Site: consumer time on site in minutes
-- Age: cutomer age in years
-- Area Income: Avg. Income of geographical area of consumer
-- Daily Internet Usage: Avg. minutes a day consumer is on the internet
-- Male: Where 0 is equale to false and 1 to true
+- Daily Time Spent on Site
+- Age
+- Area Income
+- Daily Internet Usage
+- Sex
 
 ### 3) Tested the predictions of the model
 
@@ -96,10 +96,10 @@ And with the following confusion matrix we can see the actual guesses of the mod
 
 
 
-# 3rd Project: Brief Analysis of Bank Stock prices
+# [3rd Project: Brief Analysis of Bank Stock prices](https://github.com/peps212/My-Portfolio/blob/main/Bank%20Stock%20Prices%20Analysis-checkpoint.ipynb)
 
 ### What is the project about? 
-This finance project focusses on analyzing the stock prices and returns of the following banks and creating financial indicators that can be used for technical analysis.
+This finance project focuses on analyzing the stock prices and returns of the following banks and creating financial indicators that can be used for technical analysis.
 
 List of the banks: 
  - Bank of America - BAC
@@ -111,7 +111,6 @@ List of the banks:
  
 ### Importing the data
 I imported the stock prices data using the using the pandas_datareader library, which allowed me to retrieve the stocks data from 1/1/2006 to 1/1/2016.
-Example of the dataset:
 
 ![bank_data](https://user-images.githubusercontent.com/91633570/135750679-8fa895f8-8e83-4cf3-8e93-fc3cf61e1876.PNG)
 
@@ -126,7 +125,7 @@ Now we can extrapolate the informations we want from the dataset:
 
 ![Returns](https://user-images.githubusercontent.com/91633570/135752028-82348919-c3f9-4b5a-a727-2e7514330b8f.PNG)
 
-And we can even figure out what was the worst return day for each bank: 
+And we can also find what was the worst return day for each bank: 
 
 ![worst](https://user-images.githubusercontent.com/91633570/135752071-b0353141-e9c5-4d00-accb-a9da654858e3.PNG)
 
@@ -134,7 +133,7 @@ And we can even figure out what was the worst return day for each bank:
 
 ![risky](https://user-images.githubusercontent.com/91633570/135752155-5d08c054-f593-4769-8148-dd3bc6ceaf55.PNG)
 
-### Plotting the prices of each banks over the 10 year period
+### Plotting the prices of each bank over the 10 years period
 
 ![10y](https://user-images.githubusercontent.com/91633570/135752554-ad0ed49f-62dc-4d2b-8abf-94ccca338a11.PNG)
 
@@ -143,23 +142,23 @@ And we can even figure out what was the worst return day for each bank:
 
 in this section of the project I plotted and created the functions for four different financial indicators:
 
-#### SMA
+### SMA
 I plotted the Simple Moving Average by calculating the everage of a selected range of closing prices by the number of periods in that range
 
 ![SMA](https://user-images.githubusercontent.com/91633570/135752814-86d41e88-74ce-48d7-ac73-94265fcc805d.PNG)
 
 
-#### EMA
+### EMA
 The Exponential Moving Average is quite similar to the SMA, but it places a greater weight and significance on the most recent data points
 
 ![EMA](https://user-images.githubusercontent.com/91633570/135752912-e1c0c291-824e-4ed3-936b-af05f9738052.PNG)
 
-#### MACD
+### MACD
 The Moving Average Convergence Divergence shows the relationships between two moving averages of a stock and it is calculated by subtracting the 26 period EMA from the 12 period EMA
 
 ![MACD](https://user-images.githubusercontent.com/91633570/135755675-afc5f985-6c44-4cb2-bcca-a2fa447f4ef7.PNG)
 
-#### RSI
+### RSI
 The Relative Strenght Index measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock.
 
 ![RSI](https://user-images.githubusercontent.com/91633570/135755891-f149bb72-b083-4d91-967f-ab14737a86fe.PNG)
