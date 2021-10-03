@@ -98,4 +98,69 @@ And with the following confusion matrix we can see the actual guesses of the mod
 
 # 3rd Project: Brief Analysis of Bank Stock prices
 
-This project contains different interactive charts, therefore must be opened with jupiter notebook (click on the name of the project).
+### What is the project about? 
+This finance project focusses on analyzing the stock prices and returns of the following banks and creating financial indicators that can be used for technical analysis.
+
+List of the banks: 
+ - Bank of America - BAC
+ - CitiGroup - C
+ - Goldman Sachs - GS
+ - JPMorgan Chase - JPM
+ - Morgan Stanley - MS
+ - Wells Fargo - WFC
+ 
+### Importing the data
+I imported the stock prices data using the using the pandas_datareader library, which allowed me to retrieve the stocks data from 1/1/2006 to 1/1/2016.
+Example of the dataset:
+
+![bank_data](https://user-images.githubusercontent.com/91633570/135750679-8fa895f8-8e83-4cf3-8e93-fc3cf61e1876.PNG)
+
+### Working with the dataset
+Now we can extrapolate the informations we want from the dataset:
+- What is the maximum close price for each of the stocks?
+
+![stock1](https://user-images.githubusercontent.com/91633570/135751200-31d300c6-48a0-4cc3-9628-9da36f29988b.PNG)![Stock2](https://user-images.githubusercontent.com/91633570/135751204-9a85e95d-feb5-4e4e-b4f7-daac7ee52b23.PNG)
+
+
+- Calculating the banks' returns for each day
+
+![Returns](https://user-images.githubusercontent.com/91633570/135752028-82348919-c3f9-4b5a-a727-2e7514330b8f.PNG)
+
+And we can even figure out what was the worst return day for each bank: 
+
+![worst](https://user-images.githubusercontent.com/91633570/135752071-b0353141-e9c5-4d00-accb-a9da654858e3.PNG)
+
+- Using standard deviation to identify the stock with the highest volatility
+
+![risky](https://user-images.githubusercontent.com/91633570/135752155-5d08c054-f593-4769-8148-dd3bc6ceaf55.PNG)
+
+### Plotting the prices of each banks over the 10 year period
+
+![10y](https://user-images.githubusercontent.com/91633570/135752554-ad0ed49f-62dc-4d2b-8abf-94ccca338a11.PNG)
+
+
+## Financial Indicators on the MS chart
+
+in this section of the project I plotted and created the functions for four different financial indicators:
+
+#### SMA
+I plotted the Simple Moving Average by calculating the everage of a selected range of closing prices by the number of periods in that range
+
+![SMA](https://user-images.githubusercontent.com/91633570/135752814-86d41e88-74ce-48d7-ac73-94265fcc805d.PNG)
+
+
+#### EMA
+The Exponential Moving Average is quite similar to the SMA, but it places a greater weight and significance on the most recent data points
+
+![EMA](https://user-images.githubusercontent.com/91633570/135752912-e1c0c291-824e-4ed3-936b-af05f9738052.PNG)
+
+#### MACD
+The Moving Average Convergence Divergence shows the relationships between two moving averages of a stock and it is calculated by subtracting the 26 period EMA from the 12 period EMA
+
+![MACD](https://user-images.githubusercontent.com/91633570/135755675-afc5f985-6c44-4cb2-bcca-a2fa447f4ef7.PNG)
+
+#### RSI
+The Relative Strenght Index measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock.
+
+![RSI](https://user-images.githubusercontent.com/91633570/135755891-f149bb72-b083-4d91-967f-ab14737a86fe.PNG)
+
