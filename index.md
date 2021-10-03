@@ -50,7 +50,8 @@ In this graph we can find the true values that we tried to predict in the x axis
 ### Conclusion 
 
 Going back to what the company asked, should they focus more on their mobile app or on their website? There are two ways to think about this: develop the Website to catch up to the performance of the mobile app, or develop the app more since that is what is working better. 
-In addition, it would be smart to consider the importance of the lenght of the membership, the company should focus their efforts on making sure to create good relationships with their customers, in order to increase loyality and therefore sales.
+
+it would also be smart to consider the importance of the lenght of the membership, the company should focus their efforts on making sure to create good relationships with their customers, in order to increase loyality and therefore sales.
 
 
 
