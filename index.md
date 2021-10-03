@@ -1,7 +1,7 @@
 # Giuseppe's Portofolio
-The code for the following projects can be found by clicking on the name of the project.
+The code for the following projects can be found by clicking on the "View on GitHub" button above.
 
-# [1st Project: E-commerce Company - Linear regression model](https://github.com/peps212/My-Portfolio/blob/main/Ecommerce%20Company%20Project.ipynb)
+# 1st Project: E-commerce Company - Linear regression model
 
 ## What is the project about?
 
@@ -56,7 +56,7 @@ In addition, it would be smart to consider the importance of the lenght of the m
 
 
 
-# [2nd Project: Advertisment Prediction - Logistic Regression Model](https://github.com/peps212/My-Portfolio/blob/main/Advertisement%20Prediction%20Project.ipynb)
+# 2nd Project: Advertisment Prediction - Logistic Regression Model
 
 ## What is the project about?
 
@@ -96,8 +96,7 @@ And with the following confusion matrix we can see the actual guesses of the mod
 
 
 
-# [3rd Project: Brief Analysis of Bank Stock prices](https://github.com/peps212/My-Portfolio/blob/main/Bank%20Stock%20Prices%20Analysis-checkpoint.ipynb)
-
+# 3rd Project: Brief Analysis of Bank Stock prices
 ### What is the project about? 
 This finance project focuses on analyzing the stock prices and returns of the following banks and creating financial indicators that can be used for technical analysis.
 
