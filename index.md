@@ -143,7 +143,7 @@ And we can also find what was the worst return day for each bank:
 in this section of the project I plotted and created the functions for four different financial indicators:
 
 ### SMA
-I plotted the Simple Moving Average by calculating the everage of a selected range of closing prices by the number of periods in that range
+I plotted the Simple Moving Average by calculating the average of a selected range of closing prices by the number of periods in that range
 
 ![SMA](https://user-images.githubusercontent.com/91633570/135752814-86d41e88-74ce-48d7-ac73-94265fcc805d.PNG)
 
